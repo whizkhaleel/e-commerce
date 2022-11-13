@@ -1,0 +1,89 @@
+.hero-sect {
+  position: relative;
+}
+
+.hero-sect:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(152, 113, 24, 0.85);
+}
+
+.hero-sect .hero-content {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+  top: 5rem;
+  left: 17rem;
+  color: #fff;
+}
+
+.hero-sect .hero-content .title {
+  text-transform: uppercase;
+  color: #f1f1f1;
+}
+
+.hero-sect .hero-content .headings h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3.8rem;
+  line-height: 3.6rem;
+  padding-top: .5rem;
+}
+
+.hero-sect .hero-content .text {
+  padding-top: 1rem;
+  color: #f1f1f1;
+}
+
+.hero-sect .hero-content .cta-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .7rem;
+  padding-top: 1rem;
+}
+
+.hero-sect .hero-content .cta-buttons .cta-btn {
+  padding: .7rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hero-sect .hero-content .cta-buttons .cta-btn.shop {
+  background-color: #C76847;
+  color: #fff;
+}
+
+.hero-sect .hero-content .cta-buttons .cta-btn.shop:hover {
+  background-color: #B86042;
+}
+
+.hero-sect .hero-content .cta-buttons .cta-btn.info {
+  background-color: #ffffff;
+  color: #4b4b4b;
+}
+
+.hero-sect .hero-content .cta-buttons .cta-btn.info:hover {
+  background-color: #f5f5f5;
+}
+
+.hero-sect .hero-content .cta-buttons .cta-btn.info i {
+  font-size: 1rem;
+  color: #808080;
+}
+
+.hero-sect .hero-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 70vh;
+  max-height: 80vh;
+}
+/*# sourceMappingURL=hero-section.css.map */

@@ -1,0 +1,106 @@
+header {
+    background-color: #ffffff;
+    .top-bar {
+        background-color: #DD9933;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .2rem 10rem;
+        .welcome-text {
+            text-transform: uppercase;
+            font-size: .7rem;
+            font-weight: 600;
+            letter-spacing: .5px;
+        }
+        .links-social {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            font-size: .9rem;
+            font-weight: 400;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                padding-right: .3rem;
+                &:hover {
+                    color: #f5ebeb;
+                }
+            }
+            .newsletter {
+                margin-right: 1rem;
+                padding-right: 1rem;
+                border-right: 1px solid #ffffff;
+            }
+        }
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .8rem 12rem;
+        .links-search {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 1rem;
+            .links {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                padding: 1rem;
+                a {
+                    color: #0c1f50;
+                    text-decoration: none;
+                    &:hover {
+                        color: #7f8797;
+                    }
+                }
+            }
+            .search {
+                .search-form {
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+                    .search-input {
+                        position: relative;
+                        input[type="text"] {
+                            padding: .6rem 2.8rem .6rem .5rem;
+                            font-size: .9rem;
+                            border: 1px solid #e6e1e1;
+                            width: 25rem;
+                            max-width: 35rem;
+                            border-radius: .5rem;
+                            &:focus {
+                                outline: none;
+                                border: 1px solid #f0ba68;
+                            }
+                        }
+                        .search-btn {
+                            background-color: #DD9933;
+                            color: #ffffff;
+                            display: grid;
+                            place-items: center;
+                            position: absolute;
+                            right: .2rem;
+                            top: .2rem;
+                            height: 2rem;
+                            width: 2.3rem;
+                            border-radius: .5rem;
+                            font-size: 1rem;
+                            cursor: pointer;
+                            &:hover {
+                                background-color: #f8b34c;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .user-rel {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+    }
+}
